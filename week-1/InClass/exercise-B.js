@@ -1,0 +1,11 @@
+console.log("hello")
+console.log("world")
+console.log("namste")
+console.log("hola")
+console.log("hi")
+console.log("ssa")
+console.log("adab") 
+console.log("salam")
+console.log("grretns")
+console.log("hey")
+
