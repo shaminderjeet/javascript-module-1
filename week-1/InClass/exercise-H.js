@@ -1,7 +1,7 @@
-function AddNum( a,b){
+function AddNum( name,age){
    
-    return (a+b);
+    age=age*10;
+    return (name,age)
 
 }
- console.log(AddNum(5,7))
-//  String conactination
+ console.log(AddNum(shaminder,30))

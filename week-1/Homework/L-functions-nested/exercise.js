@@ -3,11 +3,11 @@ var mentor2 = "Irina";
 var mentor3 = "Mimi";
 var mentor4 = "Rob";
 var mentor5 = "Yohannes";
-function Greeting(greet){
-    return(greet)
+function nameInUpperCase(name){
+    return(name.toUpperCase());
 }
-console.log(`HELLO ${mentor1.toUpperCase()}`)
-console.log(`HELLO ${mentor2.toUpperCase()}`)
-console.log(`HELLO ${mentor3.toUpperCase()}`)
-console.log(`HELLO ${mentor4.toUpperCase()}`)
-console.log(`HELLO ${mentor5.toUpperCase()}`)
+function shoutyGreeting(name){
+    const upperCaseName=nameInUpperCase(name)
+return `hello${upperCaseName}`
+}
+console.log(shoutyGreeting())
