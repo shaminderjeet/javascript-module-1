@@ -18,7 +18,7 @@ function convertToUSD(USD) {
 */
 
 function convertToBRL(BRL) {
-return BRL*5.7;
+return BRL*0.99*5.7;
 
 }
 
