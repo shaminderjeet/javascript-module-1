@@ -5,8 +5,33 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(num) {
+  if(num<0){
+    return true;
+  }
+  else{
+    return false;
+  }
+ 
+}
+function isBetween5and10(num){
+  if(num==5&&10){
+    return true;
+  }
+}
+function isShortName(name){
+  if(name=="Daniel"){
+    return true
+  }
+}
+function startsWithD(name){
+  if(name=name.toUpperCase()){
+    return true;
+  }
+}
 
+
+  
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
