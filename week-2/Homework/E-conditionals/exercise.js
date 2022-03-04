@@ -7,16 +7,14 @@
 */
 
 var name = "Daniel";
-var danielsRole = "mentor";
+var danielsRole = "student";
 // return danielsRole == "mentor"?  "Hi, I'm Daniel, I'm a mentor.":"Hi, I'm Daniel, I'm a student.";
 // console.log(`${danielsRole`}
-
-if(
-  danielsRole){
-  console.log ("Hi, I'm Daniel, I'm a mentor");
+if(danielsRole=="mentor"){
+  console.log("Hi, I'm Daniel, I'm a mentor.")
 }
-else {
-  console.log( "I m student")
+else if(danielsRole=="student"){
+  console.log("Hi, I'm Daniel, I'm a student.")
 }
 
 
