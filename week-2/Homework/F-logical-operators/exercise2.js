@@ -6,7 +6,7 @@
 */
 
 function isNegative(num) {
-  if(num<0){
+  if(num<0 && isBetween5and10(num)){
     return true;
   }
   else{
@@ -15,7 +15,7 @@ function isNegative(num) {
  
 }
 function isBetween5and10(num){
-  if(num==5&&10){
+  if(num=5 && 10){
     return true;
   }
 }
