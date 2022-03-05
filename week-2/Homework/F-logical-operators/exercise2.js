@@ -6,24 +6,21 @@
 */
 
 function isNegative(num) {
-  if(num<0 && isBetween5and10(num)){
-    return true;
-  }
-  else{
-    return false;
-  }
  
-}
-function isBetween5and10(num){
-  if(num=5 && 10){
-    return true;
+    return num<0;
   }
+  
+
+function isBetween5and10(num){
+  if(num>=5 && num<=10)
+    return true;
+  return false;
 }
 function isShortName(name){
-  if(name=="Daniel"){
-    return true
+  
+    return name.length<10
   }
-}
+
 function startsWithD(name){
   if(name=name.toUpperCase()){
     return true;

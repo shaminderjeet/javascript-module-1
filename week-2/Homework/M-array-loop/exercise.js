@@ -16,9 +16,10 @@ const daysOfWeek = [
 function weekDays(arr){
 for(let i=0;i<arr.length;i++){
 
-  if (arr[i].startsWith('T')) {
+  if (arr[i].startsWith('T')) { 
+   
     console.log(arr[i]);
   }
 }
 }
-console.log(weekDays(daysOfWeek))
+weekDays(daysOfWeek)

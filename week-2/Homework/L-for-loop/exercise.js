@@ -6,13 +6,17 @@
 
 */
 
-let n = 10;
+let n = 5;
 
 function sumTillNum(num){
+	 let total=0;
 	//your code here
-	for(let num =0;num=n;num++){
-		return n+=num;
+	for(let i =0;i<=num;i++){
+		total+=i;
+		
+
 	}
+	return total;
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

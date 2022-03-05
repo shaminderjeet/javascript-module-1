@@ -6,13 +6,19 @@
 
 */
 
-let n = 3;
+let n = 5;
 
 function sumTillNum(num){
+	let i=0;
+	let total=0;
+		
+	
 	//your code here
-	while(num==n){
-	 return n+=num;
+	while(i<=num){
+	   total+=i;
+	   i++;
 	}
+	return total;
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
