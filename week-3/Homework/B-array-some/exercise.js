@@ -6,7 +6,7 @@
   - Do not edit any of the existing code
 */
 
-var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
+var pairsByIndex = [null, [1, 2], [2, 1], null, [3, 0]];
 
 // If there is a null value in the array exit the program with the error code
 // https://nodejs.org/api/process.html#process_process_exit_code
@@ -14,11 +14,22 @@ var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
-
+let someFunction=pairsByIndex.some(index =>index==null)
+if(someFunction){
+  console.log("we found null value")
+  process.exit(1);
+}
 var pairs = pairsByIndex.map(function(indexes) {
   var student = students[indexes[0]];
   var mentor = mentors[indexes[1]];
-  return [student, mentor];
+   
+  return[student, mentor];
 });
 
-console.log(pairs);
+
+
+// How to properly set the exit code while letting
+// the process exit gracefully.
+
+
+
